@@ -13,3 +13,6 @@ def dias_ate_data (data_futura):
          hoje = date.today()
          return(data_futura - hoje).days
 
+def dias_passados(data_passada):
+         hoje = date.today()
+         return(hoje - data_passada).days
